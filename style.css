@@ -3,6 +3,21 @@
     margin: 20px;
     background-color: black;
 }
+.all-items{
+    display: none;
+    z-index: 1;
+    min-height: 75px;
+    max-width: 200px;
+    width: 100%;
+    left: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-color: antiquewhite;
+}
+.visible-carts{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .goods-list{
@@ -23,4 +38,9 @@
     width: 75px;
     height: 75px;
     background-color: blueviolet;
+}
+.carts-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
